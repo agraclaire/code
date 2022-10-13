@@ -2,23 +2,33 @@
 <html>
   <head>
     <title>a title for your page</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="./index.js"></script>
   </head>
   <body>
     <!-- For things that are visible on the page -->
 
     <!-- headings -->
     <h1>My Heading 1</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, exercitationem rerum iste alias nisi nobis ratione similique qui tempore deleniti cum temporibus eveniet fuga saepe nihil! Doloribus iusto magnam similique!</p>
+    <p id="lorem">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, exercitationem rerum iste alias nisi nobis ratione similique qui tempore deleniti cum temporibus eveniet fuga saepe nihil! Doloribus iusto magnam similique!
+    </p>
     <h2>My Heading 2</h2>
-    <div>Can also be used for text</div>
+    <div class="div-text">Can also be used for text</div>
     <div>
       <p>my other paragraph</p>
-      <div>my other div</div>
+      <div class="div-text">my other div</div>
     </div>
     <h3>My Heading 3</h3>
     <img src="https://www.enjpg.com/img/2020/for-phone-cute-5-e1605734565752.jpg">
     <h4>My Heading 4</h4>
+    <div class="whatever">This is some text</div>
+    <div>Don't style this text</div>
     <h5>My Heading 5</h5>
+    <div class="whatever">This is some other text</div>
+    <div>Don't style this text</div>
+    
     <h6>My Heading 6</h6>
+    <input type="button" value="Click me!" onclick="handleClick()" />
   </body>
 </html>
